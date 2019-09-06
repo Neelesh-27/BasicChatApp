@@ -1,0 +1,28 @@
+<div class="container-fluid" style="position:absolute; left:790px; top:1px;">
+<div id="userFormArea" class="row">         
+<div class="card body bg-info mb-3 border-warning mb-3">
+<div class="use-form">
+    <div class="col-md-20">
+      <div class="col-md-10 form-group">
+          <div class="bg-info mb-3  border-warning mb-3 card-header" ><i class="fa fa-user-circle-o" style="font-size:48px;color:rgb(255, 255, 255)"></i></div>
+          <label><strong>Username</strong></label>
+            <input placeholder="Username" class="form-control" [(ngModel)]="usernameService.currentUsername.Username">
+      </div>
+      <div class="col-md-10 form-group">
+          <label><strong>Password</strong></label>
+        <input placeholder="Password" class="form-control" [(ngModel)]="usernameService.currentUsername.Password">
+      </div>
+    </div> 
+    <div class="col">
+        <button class="btn btn-primary" (click)="createUsername(usernameService.currentUsername)">
+          <i class="fa fa-login"></i>
+          Sign in
+        </button> 
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+

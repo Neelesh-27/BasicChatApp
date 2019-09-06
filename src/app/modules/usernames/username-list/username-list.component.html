@@ -1,0 +1,24 @@
+<div class="container-fluid" style="position:absolute; right:825px; top:10px;">
+<div class="ex1">          
+  <div class="card body">
+  <div class="table table-hover">
+    <h1>CHATS    <i class="fa fa-comments"></i></h1>
+    <a>No. of users :<strong>     {{count}}    </strong><i class="fa fa-users fa 1x" style="color: blue"></i></a> 
+    <tr *ngFor="let use of usernameService.allUsername">
+      <td>{{use.Username}}</td>
+      <td>
+          <a class="btn text-success"  (click) = "setName(use.Username)">
+            <i class="fa fa-user"></i>
+          </a>
+      </td>
+      <td>
+          <a class="btn text-danger" (click)="deleteUsername(use.id)" >
+            <i class="fa fa-trash"></i>
+          </a>
+      </td>
+    </tr>
+  </div>  
+  </div>
+</div>
+</div>
+

@@ -1,0 +1,26 @@
+<html>
+        <div class="container-fluid">
+                <br />
+                <div class="row">
+                    <div class="ex1">    
+                    <div id = "div2" *ngFor="let name of name2" >    
+                        <span id = "span1" style = "font-style:normal; color:rgb(0, 17, 167);"> <strong> {{name}} </strong> </span> <br>      
+                    </div>
+                    </div>
+                </div>
+                <br />
+                <div class="container" style="position:absolute; left:300px; top:450px;">
+                    <div class="col-sm-5">   
+                        <div class="form-group ">
+                            <textarea #inputMessage  type="text" class="form-control" id="exampleInput" placeholder="Type your message."></textarea>
+                        </div>  
+                    </div>
+                    <div class="col-sm-3">
+                            <button type="button" class="btn btn-success" (click) = "getName(inputMessage.value)">Send</button>               
+                    </div>  
+                </div>
+            </div>
+</html>
+
+
+

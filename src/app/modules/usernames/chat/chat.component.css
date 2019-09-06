@@ -1,0 +1,13 @@
+div.ex1{
+    background-color: rgb(149, 251, 255);
+    width: 700px;
+    height: 350px;
+    overflow: scroll;
+    margin: 0 auto;
+    border : 5px solid rgb(0, 255, 115);
+    border-radius : 7px;
+}
+
+
+        
+    
