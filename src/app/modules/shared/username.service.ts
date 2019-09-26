@@ -12,7 +12,7 @@ import { Observable } from 'rxjs';
 export class UsernameService {
    
 
-  mockUrl: string = 'http://localhost:3002/Username';
+  mockUrl: string = 'http://localhost:3000/Username';
   allUsername: Username[];
   name: any;
 

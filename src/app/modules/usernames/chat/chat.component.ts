@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { UsernameService } from '../../shared/username.service';
 import { Username } from 'src/app/model/username.model';
+class user{
 
+}
 @Component({
   selector: 'app-chat',
   templateUrl: './chat.component.html',
